@@ -95,7 +95,7 @@ function Test-IsInAllowedGroup {
 
 # ==========================================
 
-# Get logged-in users via quser (reliable)
+# Get logged-in users via quser
 
 # ==========================================
 
