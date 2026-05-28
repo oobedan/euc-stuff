@@ -1,3 +1,5 @@
+# Horizon (Omnissa) Events does not grab the client IP address so there's limited audit, this will parse the debug logs from all horizon brokers and dump to CSV
+
 # --- CONFIG ---
 
 $servers = @(
