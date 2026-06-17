@@ -1,3 +1,11 @@
+
+# A script to remove Emtpy Document Sets from a SharePoint document library based on existence of a populated metadata field.
+#
+# When Purview removes files that have reached end of retention (disposal) it will leave behind empty Document Sets
+# Script will check for emptiness and remove accordinly if metadata is present. 
+
+# Usage> .\script.ps1 -SiteURL "https://mytennant.sharepoint.com/sites/mySite" -DocumentLibraryName "Documents" -DisposalTagValue(optional) "myvalue"
+
 param (
     [string]$siteURL,
     [string]$documentLibraryName,
